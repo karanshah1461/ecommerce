@@ -1,13 +1,214 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.nav-bar {
+  display: flex;
+  background: orange;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  
+}
+nav li {
+  margin-left: 3rem;
+  font-size: 1rem;
+  display: inline-block;
+
+
+}
+nav li .right {
+  text-align: right;
+  margin-right: 500px;
+}
+.cart-icon {
+  position: relative;
+  margin-right: 100px;
+  margin-left: 400px;
+}
+.avatar-text{
+  margin-right: 20px;
+  
+  text-decoration: underline;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.product-card {
+  width: 90%;
+  height: 227px;
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrp;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 29px;
+}
+.left {
+  height: 100%;
+  min-width: 100px;
+  width: 25%;
+}
+.middle {
+  height: 100%;
+  width: 20%;
+}
+.product-card .left img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+.product-card .middle :nth-child(n) {
+  /* display: inline-block; */
+  width: 100%;
+  font-size: 1rem;
+}
+.product-card .middle .product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+}
+
+.product-card .right {
+  display: inline-block;
+  width: 48%;
+  height: 90%;
+  font-size: 1rem;
+  overflow: hidden;
+}
+.card-footer {
+  display: inline-block;
+}
+.card-footer button {
+  /* background-color: lightgreen; */
+  border: 1px solid black;
+  margin: 0.4rem;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.primary {
+  background-color: blue;
+}
+.save {
+  background-color: blue;
+}
+.danger {
+  background-color:blue;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav li {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}
+nav li .right {
+  text-align: right;
+}
+.cart-icon {
+  position: relative;
+  margin-right: 19px;
+}
+.show-number {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  top: 0%;
+  left: 65%;
+  background-color: navajowhite;
+  text-align: center;
+}
+.addProduct {
+  margin: auto;
+  width: 40%;
+  height: 530px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: aquamarine;
+  margin-top: 2%;
+}
+
+
+.addProduct label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.addProduct input {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  /* margin: auto; */
+  /* margin-top: 1rem; */
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.sortbttn {
+  margin-left: 85%;
+  margin-bottom: 17px;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  background-color: lightgray;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.notification-box {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  width: 200px;
+  height: 100px;
+  font-size: medium;
+  background-color: green;
+}
+.form-body
+{
+  margin-left:130px; 
+}
+h1{
+  text-align: center;
 }
